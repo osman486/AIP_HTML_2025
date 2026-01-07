@@ -1,0 +1,22 @@
+/* №1 */
+[title]{color: rebeccapurple;}
+
+/* №2  */ 
+p[title]{ color: rebeccapurple;}
+
+/* №3   */
+p[title="hello"]{color: rebeccapurple;}
+
+/* №4   */
+a[href^="http://"]{color:rebeccapurple;}
+
+/* №5  */ 
+a[href$=".html"]{color: rebeccapurple;}
+
+/* №6  */ 
+p[title~="hello"]{color: rebeccapurple;}
+
+/* №7  */ 
+p[class^="top-"]{
+    color: rebeccapurple;
+}

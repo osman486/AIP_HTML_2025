@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- выбераем элимент с классом xxx, который находится в элименте с классом zzz, 
+     который в свою очередь находится в элименте с классом bbb-->
+     <div class="bbb">
+        <div class="zzz">
+            <div class="xxx"></div>
+        </div>
+     </div>
+    <style>
+      .bbb .zzz .xxx {
+        color: red;
+      }
+    </style>
+  </body>
+</html>

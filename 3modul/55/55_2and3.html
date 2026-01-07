@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="eee">Title</h2>
+<p class="eee">
+	paragraph
+</p>
+<p class="eee">
+	paragraph
+</p>
+<p>
+	paragraph without class
+</p>
+
+<ul class="eee"> <!-- так как ul является родительским элементом он передает свои стили потомкам, 
+    следовательно из-за этого li тоже покрасилось в красный цвет -->
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+<style>
+    .eee{
+        color: red;
+    }
+</style>
+</body>
+</html>
