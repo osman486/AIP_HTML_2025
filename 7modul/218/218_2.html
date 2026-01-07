@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="block">
+      <div class="blockmini">1</div>
+      <div class="blockmini">2</div>
+      <div class="blockmini elem">3</div>
+      <div class="blockmini">4</div>
+      <div class="blockmini">5</div>
+      <div class="blockmini">6</div>
+      <div class="blockmini">7</div>
+      <div class="blockmini">8</div>
+      <div class="blockmini">9</div>
+      <div class="blockmini">10</div>
+      <div class="blockmini">11</div>
+      <div class="blockmini">12</div>
+    </div>
+    <style>
+      .block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 300px;
+        margin: 20px auto;
+        border: 1px solid red;
+      }
+      .blockmini {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        border: 1px solid green;
+      }
+    </style>
+  </body>
+</html>
